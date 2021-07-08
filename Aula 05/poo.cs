@@ -6,6 +6,7 @@ class MainClass {
     int y = 15; // y é uma instância do tipo inteiro
 
     Produto p = new Produto();
+    // p = Produto()
     p.Nome = "Arroz";
     //p.Preco = 3;
     p.SetPreco(3);
