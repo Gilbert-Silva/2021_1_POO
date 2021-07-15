@@ -5,6 +5,7 @@ class MainClass {
     int x = 5;
     int y = x;
     Console.WriteLine(x);
+    Console.WriteLine(y);
 
     Produto w = null;
     Console.WriteLine(w);
@@ -14,10 +15,9 @@ class MainClass {
     p.Nome = "Arroz";
     p.SetPreco(3);
     Console.WriteLine(p);
-    //delete p;
 
     Produto s = p;
-    s.Nome = "Feijao"
+    s.Nome = "Feijao";
     Console.WriteLine(p);
 
     Produto q = new Produto("Biscoito");
@@ -54,11 +54,5 @@ class Produto {
   }
   public double GetPreco() {
     return Preco;
-  }
-}
-
-class Cliente {
-  public override string ToString() {   // Método - Operação
-    return "Eu sou um objeto da classe Cliente";
   }
 }

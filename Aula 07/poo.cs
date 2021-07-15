@@ -14,6 +14,5 @@ class MainClass {
     Console.WriteLine($"{x:dddd/MMM/yyyy}");
     x = DateTime.Now;
     Console.WriteLine(x);
-    
   }
 }
